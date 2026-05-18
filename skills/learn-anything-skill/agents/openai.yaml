@@ -1,4 +1,4 @@
 interface:
-  display_name: "万科学习导师"
+  display_name: "learn-anything-skill"
   short_description: "中文导师式通用学习与项目陪练 Skill 助手工具"
   default_prompt: "Use $learn-anything-skill to teach me a topic in Chinese with a mastery-based plan, authoritative sources, and a project-style deliverable."
