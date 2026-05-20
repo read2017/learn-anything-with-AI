@@ -110,30 +110,6 @@ skills/
         └── study-notes-template.md
 ```
 
-## Installation
-
-## Install in Codex / OpenAI Skills
-
-### Option A: local directory install
-
-Copy the skill folder into your local skills directory:
-
-```bash
-mkdir -p ~/.codex/skills
-cp -R ./skills/learn-anything-skill ~/.codex/skills/
-```
-
-Then restart Codex or refresh the skills list.
-
-If your environment supports automatic discovery, the skill should appear as `learn-anything-skill`.
-
-### Option B: upload or import through a Skills UI
-
-OpenAI Skills use a portable format that can be shared across compatible products.  
-If your ChatGPT or Codex build exposes a Skills page or an import flow, you can also upload the entire `learn-anything-skill` folder there.
-
-Upload the whole folder, not just `SKILL.md`, so `references/` and `assets/` remain available.
-
 ## Recommended Learning Directory Workflow
 
 Do not study inside a cluttered general workspace if you can avoid it.  
@@ -168,6 +144,30 @@ learn-ai/
 ```
 
 If the directory already has a better learning-material structure, the skill should reuse that existing structure instead of creating scattered duplicate files.
+
+## Installation
+
+## Install in Codex / OpenAI Skills
+
+### Option A: local directory install
+
+Copy the skill folder into your local skills directory:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R ./skills/learn-anything-skill ~/.codex/skills/
+```
+
+Then restart Codex or refresh the skills list.
+
+If your environment supports automatic discovery, the skill should appear as `learn-anything-skill`.
+
+### Option B: upload or import through a Skills UI
+
+OpenAI Skills use a portable format that can be shared across compatible products.  
+If your ChatGPT or Codex build exposes a Skills page or an import flow, you can also upload the entire `learn-anything-skill` folder there.
+
+Upload the whole folder, not just `SKILL.md`, so `references/` and `assets/` remain available.
 
 ## Install in Claude Code
 

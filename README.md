@@ -120,30 +120,6 @@ skills/
         └── study-notes-template.md
 ```
 
-## 安装
-
-## 安装到 Codex / OpenAI Skills
-
-### 方式 A：本地目录安装（适合 Codex 桌面端 / 本地工作流）
-
-把本仓库里的 Skill 目录复制到本地 Skills 目录：
-
-```bash
-mkdir -p ~/.codex/skills
-cp -R ./skills/learn-anything-skill ~/.codex/skills/
-```
-
-复制完成后，重启 Codex 或刷新 Skills 列表。
-
-如果你的环境支持自动发现，本 Skill 会以 `learn-anything-skill` 的名字出现在可用 Skills 中。
-
-### 方式 B：通过 Skills UI 上传 / 导入
-
-OpenAI 的 Skills 采用可移植的开放标准，支持在不同产品间共享。  
-如果你使用的 ChatGPT / Codex 版本带有 Skills 页面或导入入口，也可以直接通过 UI 上传此 Skill。
-
-建议上传整个 `learn-anything-skill` 文件夹，保留 `references/` 与 `assets/`，不要只上传单个 `SKILL.md`。
-
 ## 推荐学习目录工作流
 
 推荐不要直接在杂乱的工作目录里学习，而是先单独新建一个学习目录，再在这个目录里调用 Skill。
@@ -177,6 +153,30 @@ learn-ai/
 ```
 
 如果目录里已经有更合适的学习资料结构，Skill 也应优先复用已有目录，而不是重复新建散文件。
+
+## 安装
+
+## 安装到 Codex / OpenAI Skills
+
+### 方式 A：本地目录安装（适合 Codex 桌面端 / 本地工作流）
+
+把本仓库里的 Skill 目录复制到本地 Skills 目录：
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R ./skills/learn-anything-skill ~/.codex/skills/
+```
+
+复制完成后，重启 Codex 或刷新 Skills 列表。
+
+如果你的环境支持自动发现，本 Skill 会以 `learn-anything-skill` 的名字出现在可用 Skills 中。
+
+### 方式 B：通过 Skills UI 上传 / 导入
+
+OpenAI 的 Skills 采用可移植的开放标准，支持在不同产品间共享。  
+如果你使用的 ChatGPT / Codex 版本带有 Skills 页面或导入入口，也可以直接通过 UI 上传此 Skill。
+
+建议上传整个 `learn-anything-skill` 文件夹，保留 `references/` 与 `assets/`，不要只上传单个 `SKILL.md`。
 
 ## 安装到 Claude Code
 
