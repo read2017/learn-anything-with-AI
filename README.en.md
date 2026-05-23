@@ -147,9 +147,25 @@ If the directory already has a better learning-material structure, the skill sho
 
 ## Installation
 
-## Install in Codex / OpenAI Skills
+### Recommended: install with the Agent Skills CLI
 
-### Option A: local directory install
+If you use an agent that supports AgentSkill (Claude Code / Codex / Cursor / OpenClaw / OpenCode, etc.), install it directly with `npx skills add`:
+
+```bash
+npx skills add read2017/learn-anything-with-AI --skill learn-anything-skill
+```
+
+After installation, any AgentSkill-compatible agent can use this learning skill to study almost any subject. It will be installed as `learn-anything-skill` into the skills directory recognized by the target agent.
+
+To install it globally for reuse across projects, add `-g`:
+
+```bash
+npx skills add -g read2017/learn-anything-with-AI --skill learn-anything-skill
+```
+
+### Manual install in Codex / OpenAI Skills
+
+#### Option A: local directory install
 
 Copy the skill folder into your local skills directory:
 
@@ -162,7 +178,7 @@ Then restart Codex or refresh the skills list.
 
 If your environment supports automatic discovery, the skill should appear as `learn-anything-skill`.
 
-### Option B: upload or import through a Skills UI
+#### Option B: upload or import through a Skills UI
 
 OpenAI Skills use a portable format that can be shared across compatible products.  
 If your ChatGPT or Codex build exposes a Skills page or an import flow, you can also upload the entire `learn-anything-skill` folder there.

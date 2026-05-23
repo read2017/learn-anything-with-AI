@@ -156,9 +156,25 @@ learn-ai/
 
 ## 安装
 
-## 安装到 Codex / OpenAI Skills
+### 推荐方式：用 Agent Skills CLI 安装
 
-### 方式 A：本地目录安装（适合 Codex 桌面端 / 本地工作流）
+如果你使用的是支持 AgentSkill 的 agent（Claude Code / Codex / Cursor / OpenClaw / OpenCode 等），推荐直接用 `npx skills add` 安装：
+
+```bash
+npx skills add read2017/learn-anything-with-AI --skill learn-anything-skill
+```
+
+安装完成后，任何支持 AgentSkill 的 agent 都可以使用这套学习 Skill 来学习任何知识。它会作为 `learn-anything-skill` 被安装到对应 agent 可识别的 Skills 目录中。
+
+如果你想全局安装，让多个项目都能复用，可以加 `-g`：
+
+```bash
+npx skills add -g read2017/learn-anything-with-AI --skill learn-anything-skill
+```
+
+### 手动安装到 Codex / OpenAI Skills
+
+#### 方式 A：本地目录安装（适合 Codex 桌面端 / 本地工作流）
 
 把本仓库里的 Skill 目录复制到本地 Skills 目录：
 
@@ -171,7 +187,7 @@ cp -R ./skills/learn-anything-skill ~/.codex/skills/
 
 如果你的环境支持自动发现，本 Skill 会以 `learn-anything-skill` 的名字出现在可用 Skills 中。
 
-### 方式 B：通过 Skills UI 上传 / 导入
+#### 方式 B：通过 Skills UI 上传 / 导入
 
 OpenAI 的 Skills 采用可移植的开放标准，支持在不同产品间共享。  
 如果你使用的 ChatGPT / Codex 版本带有 Skills 页面或导入入口，也可以直接通过 UI 上传此 Skill。
