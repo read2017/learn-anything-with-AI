@@ -1,6 +1,6 @@
 ---
 name: learn-anything-skill
-description: 面向“学习任何知识”的通用导师型 skill。用于用户想学习新主题、制定学习计划、整理学习笔记、做课后复盘、生成项目任务书、做掌握度检查，或希望基于自己资料与外部权威资料进行中文导师式陪学时。默认采用“导师 + 项目教练”模式，以项目驱动和 Mastery Learning 推进；当用户未提供资料时，主动查找官方文档、原始资料、经典教材、权威机构材料与最佳实践，并区分事实依据与建议判断。
+description: 学习新知识、制定计划、整理笔记、课后复盘、项目陪练、掌握度检查。中文导师+项目教练模式，以项目驱动和Mastery Learning推进。主动查官方文档与权威材料。Use when user wants to learn a topic, create a study plan, review notes, or do mastery checks.
 ---
 
 # 万科学习导师

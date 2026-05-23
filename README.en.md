@@ -1,487 +1,322 @@
-# Learn Anything Skill
+<div align="center">
+
+<img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License">
+<img src="https://img.shields.io/badge/Skill%20Format-SKILL.md-10B981?style=flat-square" alt="SKILL.md">
+<img src="https://img.shields.io/badge/Language-中文主讲-orange?style=flat-square" alt="Language">
+<img src="https://img.shields.io/badge/Platform-Codex%20%7C%20Claude%20%7C%20OpenCode-7C3AED?style=flat-square" alt="Platforms">
+
+</div>
+
+<br>
+
+---
+
+# 🎓 Learn Anything Skill
+
+> A general-purpose AI learning skill. **Mentor + Project Coach** mode.
+> Doesn't just answer questions — **helps you truly learn.**
 
 [中文说明](./README.md)
 
-A general-purpose AI learning skill for mastering almost any subject.  
-It acts as a **mentor + project coach** by default: teaching primarily in Chinese, staying warm but rigorous, and focusing on plans, structured explanations, project-style practice, mastery checks, and authoritative sources when the user does not provide materials.
+---
 
-Good fit for:
+## ⚡ One-Line Install
 
-- learners who want a structured path into a new topic
-- people who want to move from "I know it" to "I can apply and transfer it"
-- builders who prefer project-driven learning over passive explanation
-- toolmakers who want a reusable open-source skill for Codex, Claude Code, and OpenCode users
+Copy this sentence to your AI Agent (OpenCode, Claude Code, Codex):
 
-## What This Is
-
-`learn-anything-skill` is a portable `SKILL.md` workflow package whose goal is not just to answer questions, but to **help users actually learn**.
-
-It combines two default methods:
-
-- **Project-driven learning**: turn each study cycle into an output, not just a conceptual explanation
-- **Mastery Learning**: do not stop at "I get it"; push toward "I can explain, apply, adapt, and transfer it"
-
-This skill can help generate:
-
-- study plans
-- study notes
-- session reviews
-- project briefs
-- mastery checklists
-- one-off topic explanations with follow-up practice
-
-## Core Features
-
-### 1. It behaves like a mentor, not a generic Q&A bot
-
-It first identifies the task type:
-
-- learning a new topic
-- building a study roadmap
-- project coaching
-- close reading of source material
-- post-study review
-- mastery evaluation
-
-If the goal is unclear, it asks for the minimum missing context. If the goal is already clear, it moves directly into teaching.
-
-### 2. It is project-driven without forcing everything into code
-
-For programming and engineering topics, it tends to assign:
-
-- minimum viable demos
-- micro-projects
-- debugging exercises
-- small system briefs
-
-For non-programming topics, it converts learning into output-based projects such as:
-
-- short research reports
-- teaching scripts or presentation outlines
-- case analyses
-- knowledge maps
-- reading notes
-- speaking practice scripts
-
-### 3. It fills in authoritative sources when the user does not provide material
-
-Default source priority:
-
-1. Official documentation, primary sources, original standards
-2. Canonical textbooks, classic works, authoritative institutions or courses
-3. High-quality tutorials and best practices
-
-It tries to distinguish between:
-
-- **Factual basis**: definitions, principles, theorems, standards, source claims, historical facts
-- **Judgment and advice**: study order, project design, exercise sequencing, engineering tradeoffs
-
-### 4. It uses a built-in mastery lens
-
-The skill models user progress across levels such as:
-
-- know it
-- use it
-- modify it
-- design with it
-- transfer it
-
-It does not stop at "Do you understand?" It checks mastery through explanation, correction, variation, transfer, and concrete outputs.
-
-## Repository Structure
-
-```text
-skills/
-└── learn-anything-skill/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── references/
-    │   ├── mastery-rubric.md
-    │   ├── project-patterns.md
-    │   ├── source-strategy.md
-    │   └── teaching-playbook.md
-    └── assets/
-        ├── learning-plan-template.md
-        ├── mistakes-log-template.md
-        ├── mastery-check-template.md
-        ├── project-brief-template.md
-        ├── session-review-template.md
-        └── study-notes-template.md
+```
+Install learn-anything-skill by following the instructions at: https://raw.githubusercontent.com/read2017/learn-anything-with-AI/main/docs/guide/installation.md
 ```
 
-## Recommended Learning Directory Workflow
+The agent reads the guide, downloads files, configures everything. You just **restart**.
 
-Do not study inside a cluttered general workspace if you can avoid it.  
-Create a dedicated learning directory first, then invoke the skill from inside that directory.
+> 📖 Full guide: [docs/guide/installation.md](docs/guide/installation.md)
 
-For example, if you want to study AI in a structured way:
+---
+
+## 📖 What This Is
+
+A portable `SKILL.md` workflow package built on two methods:
+
+| Method | Description |
+|--------|-------------|
+| **Project-Driven Learning** | Every session produces a tangible output (demo, report, notes, script) |
+| **Mastery Learning** | Mastery ≠ reading. Must explain, apply, transfer to pass |
+
+**It can generate:**
+- 📋 Study Plans  ·  📝 Notes  ·  🔄 Session Reviews
+- 📦 Project Briefs  ·  ✅ Mastery Checklists  ·  🎯 Topic Explanations
+
+---
+
+## ✨ Key Features
+
+### 🤖 Mentor Mode, Not a Q&A Bot
+
+Auto-identifies task type:
+```
+New Topic → Roadmap → Project Coaching → Source Reading → Review → Mastery Check
+```
+
+### 🏗 Project-Driven (Not Just Code)
+
+| Coding/Engineering | Non-Coding |
+|-------------------|-----------|
+| Minimal demo | Research report |
+| Micro-project | Case analysis |
+| Debugging task | Knowledge map |
+| System brief | Teaching script |
+
+### 📚 Auto-Sources Authority
+
+```
+Official Docs > Canonical Textbooks > Best Practices
+```
+
+Always distinguishes **factual basis** from **advisory judgment**.
+
+### 🎯 Built-in Mastery Levels
+
+```
+Know → Use → Modify → Design → Transfer
+```
+
+Stops asking "Do you understand?" Starts checking "Can you do it?"
+
+---
+
+## 📂 Repository Structure
+
+```
+skills/learn-anything-skill/
+├── SKILL.md              ← 🧠 Main skill file
+├── agents/openai.yaml     ← OpenAI agent config
+├── references/            ← 📖 Deep reference rules
+│   ├── mastery-rubric.md
+│   ├── project-patterns.md
+│   ├── source-strategy.md
+│   └── teaching-playbook.md
+└── assets/                ← 📄 Output templates
+    ├── learning-plan-template.md
+    ├── study-notes-template.md
+    ├── session-review-template.md
+    ├── project-brief-template.md
+    ├── mastery-check-template.md
+    └── mistakes-log-template.md
+```
+
+---
+
+## 🚀 Recommended Workflow
+
+Create a dedicated directory per topic:
 
 ```bash
-mkdir -p learn-ai
-cd learn-ai
+mkdir learn-ai && cd learn-ai
 ```
 
-Then use `learn-anything-skill` inside that directory.
+The skill auto-saves output to `study/` in your current directory. Reuses existing structures when found.
 
-Why this is recommended:
+---
 
-- study plans can be saved automatically as Markdown files
-- study notes can accumulate over time instead of disappearing into chat history
-- session reviews, mastery checks, and mistake logs stay in one place
-- materials, exercises, notes, and project briefs for one topic do not get mixed into unrelated projects
+## 📦 Installation
 
-By default, the skill prefers writing learning outputs into a `study/` subdirectory under the current working directory, for example:
+### ⚡ One-Line Install (Recommended)
 
-```text
-learn-ai/
-└── study/
-    ├── ai-learning-plan.md
-    ├── ai-notes.md
-    ├── ai-session-review.md
-    ├── ai-mastery-check.md
-    └── ai-mistakes-log.md
+```
+Install learn-anything-skill by following the instructions at: https://raw.githubusercontent.com/read2017/learn-anything-with-AI/main/docs/guide/installation.md
 ```
 
-If the directory already has a better learning-material structure, the skill should reuse that existing structure instead of creating scattered duplicate files.
+See the [installation guide](docs/guide/installation.md) for details.
 
-## Installation
+---
 
-## Install in Codex / OpenAI Skills
+### Install in Codex / OpenAI Skills
 
-### Option A: local directory install
-
-Copy the skill folder into your local skills directory:
+**Option A: local directory install**
 
 ```bash
 mkdir -p ~/.codex/skills
 cp -R ./skills/learn-anything-skill ~/.codex/skills/
 ```
 
-Then restart Codex or refresh the skills list.
+Restart Codex or refresh the skills list.
 
-If your environment supports automatic discovery, the skill should appear as `learn-anything-skill`.
+**Option B: upload via Skills UI**
 
-### Option B: upload or import through a Skills UI
+Upload the entire `learn-anything-skill` folder, keeping `references/` and `assets/`.
 
-OpenAI Skills use a portable format that can be shared across compatible products.  
-If your ChatGPT or Codex build exposes a Skills page or an import flow, you can also upload the entire `learn-anything-skill` folder there.
+---
 
-Upload the whole folder, not just `SKILL.md`, so `references/` and `assets/` remain available.
+### Install in Claude Code
 
-## Install in Claude Code
-
-Claude Code currently maps most closely to **Skills**. Two practical options:
-
-- project-local skill: `.claude/skills/<name>/SKILL.md`
-- plugin distribution: `skills/<name>/SKILL.md` inside a plugin
-
-### Option A: use it as a project skill
-
-Copy it into your project:
+**Option A: project skill**
 
 ```bash
 mkdir -p .claude/skills
 cp -R ./skills/learn-anything-skill ./.claude/skills/
 ```
 
-Then in Claude Code you can:
+Invoke with `/learn-anything-skill` or natural language.
 
-- invoke `/learn-anything-skill`
-- explicitly say `Use /learn-anything-skill ...`
-- let Claude trigger it automatically on relevant tasks
-
-### Option B: package it as a Claude Code plugin
-
-If you want to publish it more formally, wrap it with plugin metadata:
+**Option B: Claude Code plugin**
 
 ```text
 my-plugin/
-├── .claude-plugin/
-│   └── plugin.json
-└── skills/
-    └── learn-anything-skill/
-        └── SKILL.md
+├── .claude-plugin/plugin.json
+└── skills/learn-anything-skill/SKILL.md
 ```
-
-For local testing:
 
 ```bash
 claude --plugin-dir ./my-plugin
 ```
 
-Then invoke it with:
+---
 
-```text
-/my-plugin:learn-anything-skill
-```
+### Install in OpenCode
 
-If you just want to use it quickly, prefer Option A.
+OpenCode now natively supports **skills** (`SKILL.md` format), compatible with Codex and Claude Code.
 
-## Install in OpenCode
+**Use the one-line install** above — your agent handles everything.
 
-OpenCode currently emphasizes **custom commands**, not the same native skill folder format used by OpenAI or Claude.  
-The safest approach is to adapt this skill into an OpenCode slash command.
-
-### Option A: project-level command
-
-Create the directory:
+**Manual install:**
 
 ```bash
-mkdir -p .opencode/commands
+mkdir -p .opencode/skills
+cp -R ./skills/learn-anything-skill .opencode/skills/
 ```
 
-Create `.opencode/commands/learn-anything.md`:
+Restart OpenCode.
 
-```md
+**Global install (all projects):**
+
+```bash
+mkdir -p ~/.config/opencode/skills
+cp -R ./skills/learn-anything-skill ~/.config/opencode/skills/
+```
+
 ---
-description: Chinese mentor-style learning and project coaching
----
 
-Act as a mentor + project coach and help me learn this topic in Chinese: $ARGUMENTS
+## 📚 Usage
 
-Requirements:
-- identify the task type first: new topic, roadmap, project coaching, source reading, review, mastery evaluation
-- if the goal is unclear, ask for 1-3 critical pieces of context
-- use Mastery Learning rather than stopping at surface understanding
-- provide the smallest useful example, exercise, or output-based project
-- if I do not provide material, proactively look for official docs, primary sources, canonical texts, authoritative institutions, and best practices
-- distinguish between factual basis and advisory judgment
-- end with the next study action
-```
-
-Then run:
+### 1. Explicit Invocation
 
 ```text
-/learn-anything calculus limits
+Use learn-anything-skill to teach me calculus and create a 4-week study plan
 ```
 
-### Option B: global command
-
-If you want it available across projects, place it here:
-
-```text
-~/.config/opencode/commands/learn-anything.md
-```
-
-### OpenCode adaptation note
-
-OpenCode command files are single-file prompt templates. They do not automatically carry the full `references/` and `assets/` folder structure.
-
-If you want fuller reuse inside OpenCode:
-
-- merge key rules from `references/` into the command template
-- or keep this repository inside the workspace so the agent can read those files directly
-
-## Usage
-
-## 1. Explicit invocation
-
-It is recommended to enter a topic-specific learning directory first so generated plans, notes, and reviews can be saved into that workspace automatically.
-
-Use this when you already know what you want it to do:
-
-```text
-Use $learn-anything-skill to teach me calculus and create a 4-week study plan.
-```
-
-Or in Chinese:
-
-```text
-用 $learn-anything-skill 帮我学 SQL，并给我一个小项目任务书。
-```
-
-## 2. Natural-language triggering
-
-If your platform supports automatic skill triggering, prompts like these should work:
+### 2. Natural-Language Triggering
 
 - Help me learn calculus and create a four-week plan
-- Teach me how to read *The Wealth of Nations* and organize study notes
-- I want to improve spoken English with project-style exercises and reviews
-- Help me learn SQL and design a small project brief
-- Check my understanding of probability and point out weak spots
+- Guide me through The Wealth of Nations with study notes
+- Improve my spoken English with project-style exercises
+- Check my understanding of probability
 
-## 3. Use it with your own materials
+### 3. With Your Own Materials
 
-This is the recommended mode. You can hand it:
+Hand it course slides, lecture notes, textbook chapters, papers, code repos — it reads closely, extracts structure, fills prerequisite gaps, creates exercises, and runs mastery checks.
 
-- course slides
-- lecture notes
-- textbook chapters
-- papers
-- blog posts
-- homework sets
-- code repositories
-- your own notes
+---
 
-Then ask it to:
+## 💡 Use Cases
 
-- read closely
-- extract structure
-- turn material into teaching notes
-- fill prerequisite gaps
-- create exercises
-- run mastery checks
-
-## Use Cases
-
-## Case 1: a four-week study plan
+<details>
+<summary><b>📋 Study Plan</b></summary>
 
 ```text
-Use $learn-anything-skill to help me learn linear algebra.
-I only know high-school math and I can study 6 hours per week.
-Please create a 4-week plan with weekly outputs and acceptance criteria.
+Use learn-anything-skill to help me learn linear algebra.
+I only know high-school math, 6h/week.
+Create a 4-week plan with outputs and acceptance criteria.
 ```
 
-Typical output:
+→ Gets: level assessment · capability breakdown · weekly plan · deliverables · risk notes
 
-- starting-level assessment
-- capability breakdown
-- four-week roadmap
-- weekly exercises and deliverables
-- risk reminders
+</details>
 
-## Case 2: guided reading
+<details>
+<summary><b>📖 Guided Reading</b></summary>
 
 ```text
-Use $learn-anything-skill to guide me through Volume 1 of The Wealth of Nations.
-I do not want a summary only. Help me build structure, make reading notes, and prepare review questions after each chapter.
+Use learn-anything-skill to guide me through The Wealth of Nations Vol 1.
+Help me build structure, take notes, prepare chapter review questions.
 ```
 
-Typical output:
+→ Gets: chapter structure · key concepts · common misunderstandings · review questions
 
-- chapter structure
-- key concepts and arguments
-- common misunderstandings
-- close-reading questions
-- review questions
+</details>
 
-## Case 3: project-based spoken English training
+<details>
+<summary><b>🗣 Spoken English</b></summary>
 
 ```text
-Use $learn-anything-skill to improve my spoken English.
-My goal is to deliver a 3-minute self-introduction and project introduction in 6 weeks.
-Please design the training in a project-driven way.
+Use learn-anything-skill to improve my spoken English.
+Goal: 3-minute self-introduction in 6 weeks. Project-driven training.
 ```
 
-Typical output:
+→ Gets: staged roadmap · weekly scripts · recording tasks · retest criteria
 
-- staged training roadmap
-- weekly speaking themes and scripts
-- recording and output tasks
-- review and retest criteria
+</details>
 
-## Case 4: SQL plus a small project brief
+<details>
+<summary><b>💻 SQL + Project</b></summary>
 
 ```text
-Use $learn-anything-skill to teach me SQL.
-I know some Python but have never studied databases systematically.
-Please give me a roadmap and design a small student-score analysis project brief.
+Use learn-anything-skill to teach me SQL.
+I know Python but not databases.
+Give me a roadmap and a student-score analysis project brief.
 ```
 
-Typical output:
+→ Gets: prerequisite check · core concepts · graded exercises · project brief · checkpoints
 
-- minimum prerequisite diagnosis
-- core SQL explanations
-- graduated query practice
-- small project brief
-- mastery checkpoints
+</details>
 
-## Case 5: mastery checking
+<details>
+<summary><b>✅ Mastery Check</b></summary>
 
 ```text
-Use $learn-anything-skill to assess my understanding of conditional probability and Bayes' rule.
-Do not just ask whether I understand. Give me restatement tasks, variation tasks, and transfer tasks.
+Use learn-anything-skill to assess my understanding of conditional probability.
+Don't ask if I understand — give me restatement, variation, and transfer tasks.
 ```
 
-Typical output:
+→ Gets: level judgment · evidence · weak points · reinforcement · retest standard
 
-- current mastery-level judgment
-- evidence for that judgment
-- weak-point diagnosis
-- reinforcement tasks
-- retest criteria
+</details>
 
-## Recommended Prompts
+---
 
-If this is your first time using the skill, start with one of these:
+## 🎨 Suitable Topics
 
-### Generate a study plan
+This skill isn't just for programmers:
 
-```text
-Use $learn-anything-skill to help me learn [topic].
-My current level is [current level], and I can spend [time] each week.
-Please create a [2/4/8]-week plan with exercises, outputs, and acceptance criteria for each week.
-```
+`Coding` · `Math` · `Stats` · `Economics` · `Finance` · `English` · `Japanese` · `History` · `Social Science` · `Writing` · `Speaking` · `AI/LLM`
 
-### Request a one-off explanation
+---
 
-```text
-Use $learn-anything-skill to teach me [topic].
-Please structure the answer as: core concept -> smallest useful example or case -> common mistakes -> one micro-output task -> mastery check.
-```
+## 🛠 Customization
 
-### Run a post-study review
+Want your own version? Start here:
 
-```text
-Use $learn-anything-skill to review what I learned today about [topic].
-Help me separate what I truly understand, what is still fuzzy, and what I should study next.
-```
+| File | Controls |
+|------|----------|
+| `SKILL.md` | Overall behavior, task tree, teaching flow |
+| `references/source-strategy.md` | Source lookup priority |
+| `references/project-patterns.md` | Project-driven formats |
+| `references/mastery-rubric.md` | Mastery criteria |
 
-### Generate a project brief
+---
 
-```text
-Use $learn-anything-skill to turn [topic] into a project brief.
-Include background, goal, deliverables, constraints, task breakdown, and acceptance criteria.
-```
+## 🔗 Compatibility
 
-## Suitable Topics
+| Platform | Skill Format | Install |
+|----------|-------------|---------|
+| **OpenAI / Codex / ChatGPT Skills** | ✅ Native | `~/.codex/skills/` or Skills UI |
+| **Claude Code** | ✅ Supported | `.claude/skills/` or Plugin |
+| **OpenCode** | ✅ Native | `.opencode/skills/` or one-line install |
 
-This skill is not only for programmers. It works well for:
+> The core asset is the portable `SKILL.md + references + assets` workflow. Install entry points differ by platform, but the content itself is cross-platform.
 
-- programming and software engineering
-- mathematics and statistics
-- economics and finance fundamentals
-- English and other language learning
-- history, social science, and humanities reading
-- writing, speaking, and communication training
-- AI, LLM, and data-related topics
+---
 
-## Customization
+## 📄 License
 
-If you want your own version, the most common changes are:
-
-- change the tone or default language
-- shift project style toward exams, papers, real-world work, or portfolio building
-- change source strategy to emphasize official docs or textbook reading
-- change mastery checks to focus on problem solving, oral explanation, code implementation, or paper interpretation
-
-The best files to edit first:
-
-- `skills/learn-anything-skill/SKILL.md`
-- `skills/learn-anything-skill/references/source-strategy.md`
-- `skills/learn-anything-skill/references/project-patterns.md`
-- `skills/learn-anything-skill/references/mastery-rubric.md`
-
-## Compatibility Notes
-
-- **OpenAI / Codex / ChatGPT Skills**: this is the most native target format
-- **Claude Code**: usable directly as a skill; for broader distribution, a plugin wrapper is recommended
-- **OpenCode**: better treated as a command adaptation than as a fully identical skill system
-
-In short: the core asset in this repository is the portable `SKILL.md + references + assets` workflow. Installation entry points differ across agents, but the teaching logic is reusable.
-
-## References
-
-These official resources helped shape the installation and compatibility guidance in this repository:
-
-- OpenAI Skills: <https://openai.com/academy/skills/>
-- ChatGPT Skills help: <https://help.openai.com/en/articles/20001066>
-- Codex app introduction: <https://openai.com/index/introducing-the-codex-app/>
-- Claude Code cheatsheet: <https://support.claude.com/en/articles/14553413-claude-code-cheatsheet>
-- Claude Code plugins: <https://code.claude.com/docs/en/plugins>
-- OpenCode commands: <https://opencode.ai/docs/commands>
-
-## License
-
-This repository is released under the [MIT License](./LICENSE).
+MIT · See [LICENSE](./LICENSE)
