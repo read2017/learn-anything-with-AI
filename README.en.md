@@ -1,9 +1,44 @@
 # Learn Anything Skill
 
+![License](https://img.shields.io/badge/license-MIT-green.svg) ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-learn--anything--skill-111827) ![Language](https://img.shields.io/badge/language-Chinese%20first-orange) ![Method](https://img.shields.io/badge/method-Project--Driven%20%2B%20Mastery%20Learning-blue) ![Open Source](https://img.shields.io/badge/open%20source-GitHub-black)
+
 [中文说明](./README.md)
 
 A general-purpose AI learning skill for mastering almost any subject.  
 It acts as a **mentor + project coach** by default: teaching primarily in Chinese, staying warm but rigorous, and focusing on plans, structured explanations, project-style practice, mastery checks, and authoritative sources when the user does not provide materials.
+
+> Turn AI from a question-answering tool into a study coach that actually helps you learn.
+
+## Quick Navigation
+
+[What This Is](#what-this-is) · [Core Features](#core-features) · [Repository Structure](#repository-structure) · [Recommended Learning Directory Workflow](#recommended-learning-directory-workflow) · [Installation](#installation) · [Usage](#usage) · [Use Cases](#use-cases) · [Recommended Prompts](#recommended-prompts) · [Suitable Topics](#suitable-topics) · [Customization](#customization) · [Compatibility Notes](#compatibility-notes)
+
+## At a Glance
+
+- `learn-anything-skill`: a mentor-style skill for learning almost any subject
+- default role: `mentor + project coach`
+- default method: `Project-Driven Learning + Mastery Learning`
+- default behavior: fills in authoritative sources and saves learning outputs into the working directory
+- target tools: Codex / Claude Code / OpenCode / other Agent Skills-compatible tools
+
+## Preview
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong><a href="http://xhslink.com/o/4DLignz1LpA">Project intro post</a></strong><br />
+      <a href="http://xhslink.com/o/4DLignz1LpA">
+        <img src="./docs/images/project-intro-cover.png" alt="learn-anything-skill project intro" height="320" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <strong><a href="http://xhslink.com/o/4DLignz1LpA">Beginner video tutorial</a></strong><br />
+      <a href="http://xhslink.com/o/4DLignz1LpA">
+        <img src="./docs/images/video-tutorial-cover.png" alt="learn-anything-skill video tutorial cover" height="320" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 Good fit for:
 
@@ -12,7 +47,8 @@ Good fit for:
 - builders who prefer project-driven learning over passive explanation
 - toolmakers who want a reusable open-source skill for Codex, Claude Code, and OpenCode users
 
-## What This Is
+<a id="what-this-is"></a>
+## ✨ What This Is
 
 `learn-anything-skill` is a portable `SKILL.md` workflow package whose goal is not just to answer questions, but to **help users actually learn**.
 
@@ -30,7 +66,8 @@ This skill can help generate:
 - mastery checklists
 - one-off topic explanations with follow-up practice
 
-## Core Features
+<a id="core-features"></a>
+## 🧠 Core Features
 
 ### 1. It behaves like a mentor, not a generic Q&A bot
 
@@ -88,7 +125,8 @@ The skill models user progress across levels such as:
 
 It does not stop at "Do you understand?" It checks mastery through explanation, correction, variation, transfer, and concrete outputs.
 
-## Repository Structure
+<a id="repository-structure"></a>
+## 🗂️ Repository Structure
 
 ```text
 skills/
@@ -110,7 +148,8 @@ skills/
         └── study-notes-template.md
 ```
 
-## Recommended Learning Directory Workflow
+<a id="recommended-learning-directory-workflow"></a>
+## 📁 Recommended Learning Directory Workflow
 
 Do not study inside a cluttered general workspace if you can avoid it.  
 Create a dedicated learning directory first, then invoke the skill from inside that directory.
@@ -145,7 +184,8 @@ learn-ai/
 
 If the directory already has a better learning-material structure, the skill should reuse that existing structure instead of creating scattered duplicate files.
 
-## Installation
+<a id="installation"></a>
+## 🚀 Installation
 
 ### Recommended: install with the Agent Skills CLI
 
@@ -162,6 +202,9 @@ To install it globally for reuse across projects, add `-g`:
 ```bash
 npx skills add -g read2017/learn-anything-with-AI --skill learn-anything-skill
 ```
+
+<details open>
+<summary><strong>Expand Codex / OpenAI Skills manual installation</strong></summary>
 
 ### Manual install in Codex / OpenAI Skills
 
@@ -184,6 +227,11 @@ OpenAI Skills use a portable format that can be shared across compatible product
 If your ChatGPT or Codex build exposes a Skills page or an import flow, you can also upload the entire `learn-anything-skill` folder there.
 
 Upload the whole folder, not just `SKILL.md`, so `references/` and `assets/` remain available.
+
+</details>
+
+<details>
+<summary><strong>Expand Claude Code installation</strong></summary>
 
 ## Install in Claude Code
 
@@ -233,6 +281,11 @@ Then invoke it with:
 ```
 
 If you just want to use it quickly, prefer Option A.
+
+</details>
+
+<details>
+<summary><strong>Expand OpenCode installation</strong></summary>
 
 ## Install in OpenCode
 
@@ -289,7 +342,10 @@ If you want fuller reuse inside OpenCode:
 - merge key rules from `references/` into the command template
 - or keep this repository inside the workspace so the agent can read those files directly
 
-## Usage
+</details>
+
+<a id="usage"></a>
+## 🛠️ Usage
 
 ## 1. Explicit invocation
 
@@ -339,7 +395,8 @@ Then ask it to:
 - create exercises
 - run mastery checks
 
-## Use Cases
+<a id="use-cases"></a>
+## 📚 Use Cases
 
 ## Case 1: a four-week study plan
 
@@ -418,7 +475,8 @@ Typical output:
 - reinforcement tasks
 - retest criteria
 
-## Recommended Prompts
+<a id="recommended-prompts"></a>
+## ✍️ Recommended Prompts
 
 If this is your first time using the skill, start with one of these:
 
@@ -451,7 +509,8 @@ Use $learn-anything-skill to turn [topic] into a project brief.
 Include background, goal, deliverables, constraints, task breakdown, and acceptance criteria.
 ```
 
-## Suitable Topics
+<a id="suitable-topics"></a>
+## 🎯 Suitable Topics
 
 This skill is not only for programmers. It works well for:
 
@@ -463,7 +522,8 @@ This skill is not only for programmers. It works well for:
 - writing, speaking, and communication training
 - AI, LLM, and data-related topics
 
-## Customization
+<a id="customization"></a>
+## 🔧 Customization
 
 If you want your own version, the most common changes are:
 
@@ -479,13 +539,17 @@ The best files to edit first:
 - `skills/learn-anything-skill/references/project-patterns.md`
 - `skills/learn-anything-skill/references/mastery-rubric.md`
 
-## Compatibility Notes
+<a id="compatibility-notes"></a>
+## 🔌 Compatibility Notes
 
 - **OpenAI / Codex / ChatGPT Skills**: this is the most native target format
 - **Claude Code**: usable directly as a skill; for broader distribution, a plugin wrapper is recommended
 - **OpenCode**: better treated as a command adaptation than as a fully identical skill system
 
 In short: the core asset in this repository is the portable `SKILL.md + references + assets` workflow. Installation entry points differ across agents, but the teaching logic is reusable.
+
+<details>
+<summary><strong>Expand references</strong></summary>
 
 ## References
 
@@ -497,6 +561,8 @@ These official resources helped shape the installation and compatibility guidanc
 - Claude Code cheatsheet: <https://support.claude.com/en/articles/14553413-claude-code-cheatsheet>
 - Claude Code plugins: <https://code.claude.com/docs/en/plugins>
 - OpenCode commands: <https://opencode.ai/docs/commands>
+
+</details>
 
 ## License
 
