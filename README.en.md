@@ -37,14 +37,14 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong><a href="http://xhslink.com/o/4DLignz1LpA">Project intro post</a></strong><br />
-      <a href="http://xhslink.com/o/4DLignz1LpA">
+      <strong><a href="https://xhslink.cn/o/5pRBmwGVkJe">Project intro post</a></strong><br />
+      <a href="https://xhslink.cn/o/5pRBmwGVkJe">
         <img src="./docs/images/project-intro-cover.png" alt="learn-anything-skill project intro" height="320" />
       </a>
     </td>
     <td align="center" width="50%">
-      <strong><a href="http://xhslink.com/o/4DLignz1LpA">Beginner video tutorial</a></strong><br />
-      <a href="http://xhslink.com/o/4DLignz1LpA">
+      <strong><a href="https://xhslink.cn/o/4DLignz1LpA">Beginner video tutorial</a></strong><br />
+      <a href="https://xhslink.cn/o/4DLignz1LpA">
         <img src="./docs/images/video-tutorial-cover.png" alt="learn-anything-skill video tutorial cover" height="320" />
       </a>
     </td>

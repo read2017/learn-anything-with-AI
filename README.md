@@ -37,14 +37,14 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong><a href="http://xhslink.com/o/4DLignz1LpA">项目图文介绍</a></strong><br />
-      <a href="http://xhslink.com/o/4DLignz1LpA">
+      <strong><a href="https://xhslink.cn/o/5pRBmwGVkJe">项目图文介绍</a></strong><br />
+      <a href="https://xhslink.cn/o/5pRBmwGVkJe">
         <img src="./docs/images/project-intro-cover.png" alt="learn-anything-skill 项目介绍" height="320" />
       </a>
     </td>
     <td align="center" width="50%">
-      <strong><a href="http://xhslink.com/o/4DLignz1LpA">小白保姆级视频教程</a></strong><br />
-      <a href="http://xhslink.com/o/4DLignz1LpA">
+      <strong><a href="https://xhslink.cn/o/4DLignz1LpA">小白保姆级视频教程</a></strong><br />
+      <a href="https://xhslink.cn/o/4DLignz1LpA">
         <img src="./docs/images/video-tutorial-cover.png" alt="learn-anything-skill 视频教程封面" height="320" />
       </a>
     </td>
