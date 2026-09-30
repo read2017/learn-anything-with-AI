@@ -1,13 +1,34 @@
+<div align="center">
+
 # Learn Anything Skill
 
-![License](https://img.shields.io/badge/license-MIT-green.svg) ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-learn--anything--skill-111827) ![Language](https://img.shields.io/badge/language-Chinese%20first-orange) ![Method](https://img.shields.io/badge/method-Project--Driven%20%2B%20Mastery%20Learning-blue) ![Open Source](https://img.shields.io/badge/open%20source-GitHub-black)
+<p align="center">
+  <img src="assets/hero.gif" alt="learn-anything-skill: the teaching loop from diagnosing your starting point to mastery checks" width="100%"/>
+</p>
 
-[中文说明](./README.md)
+> *Turn AI from a question-answering tool into a study coach that actually helps you learn.*
 
-A general-purpose AI learning skill for mastering almost any subject and turning AI into a top-tier private tutor.  
-It acts as a **mentor + project coach** by default: teaching primarily in Chinese, staying warm but rigorous, and focusing on plans, structured explanations, project-style practice, mastery checks, and authoritative sources when the user does not provide materials.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-3fb950)](https://agentskills.io)
+[![Runtime](https://img.shields.io/badge/Runtime-Codex%20%C2%B7%20Claude%20Code%20%C2%B7%20OpenCode%20%C2%B7%20Cursor-blueviolet)](#compatibility)
+[![Method](https://img.shields.io/badge/Method-Project--Driven%20%2B%20Mastery%20Learning-blue)](#what-it-does)
+[![Stars](https://img.shields.io/github/stars/read2017/learn-anything-with-AI?style=social)](https://github.com/read2017/learn-anything-with-AI/stargazers)
 
-> Turn AI from a question-answering tool into a study coach that actually helps you learn.
+<br>
+
+**A portable `SKILL.md` workflow pack. It plays mentor + project coach by default: diagnose your starting point, give a learning roadmap, run project-based practice, check mastery — and write every learning artifact to Markdown files instead of leaving it in the chat.**
+
+<sub>Chinese-first teaching · warm but rigorous · authoritative sources · one SKILL.md across Codex / Claude Code / OpenCode</sub>
+
+<br>
+
+[Preview](#preview) · [What it does](#what-it-does) · [Study directory workflow](#recommended-study-directory-workflow) · [Quick start](#quick-start) · [Tutorial](#detailed-tutorial) · [中文说明](./README.md)
+
+<br>
+
+</div>
+
+---
 
 ## Preview
 

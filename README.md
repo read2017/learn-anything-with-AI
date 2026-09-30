@@ -1,13 +1,34 @@
+<div align="center">
+
 # Learn Anything Skill
 
-![License](https://img.shields.io/badge/license-MIT-green.svg) ![Agent Skill](https://img.shields.io/badge/Agent%20Skill-learn--anything--skill-111827) ![Language](https://img.shields.io/badge/language-Chinese%20first-orange) ![Method](https://img.shields.io/badge/method-Project--Driven%20%2B%20Mastery%20Learning-blue) ![Open Source](https://img.shields.io/badge/open%20source-GitHub-black)
+<p align="center">
+  <img src="assets/hero.gif" alt="learn-anything-skill：从诊断起点到掌握度检查的教学闭环" width="100%"/>
+</p>
 
-[English README](./README.en.md)
+> *让 AI 从「会回答问题」，变成「能带你真的学会」*
 
-一个面向“学习任何知识”的通用 AI 学习 Skill，让 AI 成为你的顶级私教。  
-它默认扮演 **导师 + 项目教练**：用中文主讲，温柔鼓励，专业幽默；不只解释概念，还会诊断起点、制定计划、组织项目化练习、检查掌握度，并在你没给资料时主动补官方文档与权威材料。
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-3fb950)](https://agentskills.io)
+[![Runtime](https://img.shields.io/badge/Runtime-Codex%20%C2%B7%20Claude%20Code%20%C2%B7%20OpenCode%20%C2%B7%20Cursor-blueviolet)](#兼容性说明)
+[![Method](https://img.shields.io/badge/Method-Project--Driven%20%2B%20Mastery%20Learning-blue)](#简介)
+[![Stars](https://img.shields.io/github/stars/read2017/learn-anything-with-AI?style=social)](https://github.com/read2017/learn-anything-with-AI/stargazers)
 
-> 把 AI 从“会回答问题”推进成“能带你真的学会”的学习搭子。
+<br>
+
+**一个可移植的 `SKILL.md` 工作流包。默认扮演「导师 + 项目教练」：先诊断起点，再给学习路线、组织项目化练习、检查掌握度，并把学习产出落盘成 Markdown 文件。**
+
+<sub>中文主讲 · 温柔鼓励 · 优先官方文档与权威材料 · 一个 SKILL.md 走遍 Codex / Claude Code / OpenCode</sub>
+
+<br>
+
+[图文 / 视频介绍](#图文和视频介绍) · [它会什么](#简介) · [学习目录工作流](#推荐学习目录工作流) · [快速开始](#快速开始) · [详细教程](#详细教程) · [适用主题](#适用主题) · [English README](./README.en.md)
+
+<br>
+
+</div>
+
+---
 
 ## 图文和视频介绍
 
@@ -27,10 +48,6 @@
     </td>
   </tr>
 </table>
-
-## 快速导航
-
-[简介](#简介) · [推荐学习目录工作流](#推荐学习目录工作流) · [快速开始](#快速开始) · [详细教程](#详细教程) · [目录结构](#目录结构) · [适用主题](#适用主题) · [开发与定制](#开发与定制) · [兼容性说明](#兼容性说明)
 
 ## 简介
 
