@@ -20,6 +20,8 @@
 
 <sub>中文主讲 · 温柔鼓励 · 优先官方文档与权威材料 · 一个 SKILL.md 走遍 Codex / Claude Code / OpenCode</sub>
 
+<sub>⭐ Star 收藏 · 👀 Watch 订阅更新（会持续迭代）</sub>
+
 <br>
 
 [图文 / 视频介绍](#图文和视频介绍) · [它会什么](#简介) · [学习目录工作流](#推荐学习目录工作流) · [快速开始](#快速开始) · [详细教程](#详细教程) · [适用主题](#适用主题) · [English README](./README.en.md)
@@ -217,6 +219,16 @@ skills/
 - OpenCode Commands：<https://opencode.ai/docs/commands>
 
 </details>
+
+## 支持这个项目
+
+如果这个 skill 帮你把一件事真的学会了：
+
+- **⭐ Star** —— 让更多人看到它
+- **👀 Watch** —— 订阅更新，我发新版本时你会收到通知
+- **Fork** —— 改成你自己的版本（换语气、换项目风格、换资料策略都行，见[开发与定制](#开发与定制)）
+
+有问题、想要新功能，或者想提名一个新的项目范式，欢迎开 [Issue](https://github.com/read2017/learn-anything-with-AI/issues)。
 
 ## License
 

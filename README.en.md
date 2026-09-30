@@ -20,6 +20,8 @@
 
 <sub>Chinese-first teaching · warm but rigorous · authoritative sources · one SKILL.md across Codex / Claude Code / OpenCode</sub>
 
+<sub>⭐ Star to bookmark · 👀 Watch for updates</sub>
+
 <br>
 
 [Preview](#preview) · [What it does](#what-it-does) · [Study directory workflow](#recommended-study-directory-workflow) · [Quick start](#quick-start) · [Tutorial](#detailed-tutorial) · [中文说明](./README.md)
@@ -230,6 +232,16 @@ These resources helped shape the installation and compatibility guidance:
 - OpenCode commands: <https://opencode.ai/docs/commands>
 
 </details>
+
+## Support this project
+
+If this skill helped you actually learn something:
+
+- **⭐ Star** — helps more people find it
+- **👀 Watch** — subscribe to updates and get notified on new releases
+- **Fork** — make it yours (tone, project style, and source strategy are all meant to be edited; see [Development & Customization](#development--customization))
+
+Questions, feature requests, or a new project pattern to nominate? Open an [Issue](https://github.com/read2017/learn-anything-with-AI/issues).
 
 ## License
 
