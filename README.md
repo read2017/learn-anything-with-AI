@@ -230,6 +230,57 @@ skills/
 
 有问题、想要新功能，或者想提名一个新的项目范式，欢迎开 [Issue](https://github.com/read2017/learn-anything-with-AI/issues)。
 
+### ☕ 请我喝杯咖啡
+
+这个项目占用了我不少下班后的时间。如果你用着顺手，可以请我喝杯咖啡：
+
+<!-- 打赏码：把微信/支付宝收款码存成 assets/donate-qrcode.png 后，取消下面这段注释
+<table>
+  <tr>
+    <td align="center"><img src="assets/donate-qrcode.png" width="240" alt="请我喝杯咖啡"/></td>
+  </tr>
+</table>
+-->
+
+*微信 / 支付宝都可以。海外的朋友可以用 [Ko-fi](https://ko-fi.com/)（链接待补）。*
+
+> ☝️ 这里**只收打赏，不用于购买服务**——要买服务请看下一节。
+
+---
+
+## 我能帮你做什么
+
+这个仓库来自我自己的真实需求。如果你也有类似场景，我提供一对一的服务：
+
+| 服务 | 适合谁 | 交付什么 |
+|---|---|---|
+| **定制 skill** | 你有一套自己的工作流、知识或内容，想把它变成 AI 能直接用的 skill | 沟通确认场景 → 交付可用的 `SKILL.md` 包 |
+| **人物蒸馏** | 你想把某位博主 / 领域专家的公开内容，提炼成「能按他的方式回答」的 AI 助手 | 从语料采集、统计分析到 skill 交付的完整流程 |
+| **AI 工作流咨询** | 想让 AI 真正嵌进业务流程，而不是停在聊天框里 | 按你的具体场景评估可行性 |
+
+**实物案例**：[jianghushuo-oral-skill](https://github.com/read2017/jianghushuo-oral-skill) —— 把一位 489 万粉博主的 433 条视频（94.7 万字）蒸馏成一个 skill：提炼出 6 个心智模型、15 组内在矛盾，独立盲测评分 **90/100**，每一条引用都能回溯到原片秒数。
+
+📮 **read2016@qq.com** —— 邮件说明你的场景，我一般当天回。
+
+> **边界说明**：人物蒸馏类服务只处理**你有权使用的内容**——你自己的账号、你已获授权的素材，或公开内容用于个人研究。我不代人处理无权分发的他人内容。
+
+---
+
+## 关于作者
+
+**沉思哲**（AI 产品研发）· GitHub [@read2017](https://github.com/read2017)
+
+我擅长把「实际做过的事」变成可复用的 AI 工具，也在小红书和抖音记录这个过程。
+
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>抖音</strong><br/><img src="assets/douyin-qrcode.png" width="200" alt="抖音：沉思哲"/></td>
+    <td align="center" width="50%"><strong>小红书</strong><br/><img src="assets/xiaohongshu-card.jpg" width="200" alt="小红书：沉思哲"/></td>
+  </tr>
+</table>
+
+📮 read2016@qq.com
+
 ## License
 
 本仓库使用 [MIT License](./LICENSE)。

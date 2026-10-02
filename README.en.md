@@ -243,6 +243,57 @@ If this skill helped you actually learn something:
 
 Questions, feature requests, or a new project pattern to nominate? Open an [Issue](https://github.com/read2017/learn-anything-with-AI/issues).
 
+### ☕ Buy me a coffee
+
+This project took a good number of evenings. If it's been useful, you can buy me a coffee:
+
+<!-- Donate QR: save your WeChat/Alipay QR code as assets/donate-qrcode.png, then uncomment this block
+<table>
+  <tr>
+    <td align="center"><img src="assets/donate-qrcode.png" width="240" alt="Buy me a coffee"/></td>
+  </tr>
+</table>
+-->
+
+*WeChat / Alipay for readers in China, [Ko-fi](https://ko-fi.com/) for international readers (link TBD).*
+
+> ☝️ Tips only — **not for purchasing services**. For services, see the next section.
+
+---
+
+## Work with me
+
+This repo came out of a problem I had myself. If you're in a similar spot, I offer 1-on-1 services:
+
+| Service | Who it's for | What you get |
+|---|---|---|
+| **Custom skill** | You have a workflow, knowledge base, or content you want packaged as a skill an AI can actually use | Scoping call → a working `SKILL.md` package |
+| **Persona distillation** | You want a creator's or expert's public content turned into an AI assistant that answers in their style | Full pipeline: corpus collection, analysis, statistics, and skill delivery |
+| **AI workflow consulting** | You want AI embedded in your real business process, not stuck in a chat box | A feasibility assessment for your specific case |
+
+**A real example**: [jianghushuo-oral-skill](https://github.com/read2017/jianghushuo-oral-skill) — distilling a creator with 4.89M followers from 433 videos (947k characters) into a single skill: 6 mental models, 15 documented internal contradictions, an independent blind-test score of **90/100**, and every quote traceable to the exact second in the original video.
+
+📮 **read2016@qq.com** — tell me your use case, I usually reply the same day (English or Chinese).
+
+> **Scope note**: persona-distillation work only covers content **you have the right to use** — your own accounts, material you're licensed for, or public content for personal research. I don't process other people's content on someone else's behalf.
+
+---
+
+## About the author
+
+**沉思哲 / Chen Sizhe**（AI 产品研发）· GitHub [@read2017](https://github.com/read2017)
+
+I turn things I've actually built into reusable AI tooling, and document the process on Xiaohongshu and Douyin (Chinese platforms).
+
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>抖音 Douyin</strong><br/><img src="assets/douyin-qrcode.png" width="200" alt="Douyin: 沉思哲"/></td>
+    <td align="center" width="50%"><strong>小红书 Xiaohongshu</strong><br/><img src="assets/xiaohongshu-card.jpg" width="200" alt="Xiaohongshu: 沉思哲"/></td>
+  </tr>
+</table>
+
+📮 read2016@qq.com
+
 ## License
 
 This repository is released under the [MIT License](./LICENSE).
