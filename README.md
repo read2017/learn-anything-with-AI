@@ -24,7 +24,7 @@
 
 <br>
 
-[图文 / 视频介绍](#图文和视频介绍) · [它会什么](#简介) · [学习目录工作流](#推荐学习目录工作流) · [快速开始](#快速开始) · [详细教程](#详细教程) · [适用主题](#适用主题) · [English README](./README.en.md)
+[图文 / 视频介绍](#图文和视频介绍) · [它会什么](#简介) · [快速开始](#快速开始) · [详细教程](#详细教程) · [适用主题](#适用主题) · [**能帮你做什么**](#我能帮你做什么) · [支持这个项目](#支持这个项目) · [English README](./README.en.md)
 
 <br>
 
@@ -230,21 +230,17 @@ skills/
 
 有问题、想要新功能，或者想提名一个新的项目范式，欢迎开 [Issue](https://github.com/read2017/learn-anything-with-AI/issues)。
 
-### ☕ 请我喝杯咖啡
+### 请我喝杯咖啡
 
 这个项目占用了我不少下班后的时间。如果你用着顺手，可以请我喝杯咖啡：
 
-<!-- 打赏码：把微信/支付宝收款码存成 assets/donate-qrcode.png 后，取消下面这段注释
-<table>
-  <tr>
-    <td align="center"><img src="assets/donate-qrcode.png" width="240" alt="请我喝杯咖啡"/></td>
-  </tr>
-</table>
--->
+<p align="center">
+  <img src="assets/donate-qrcode.png" width="240" alt="请我喝杯咖啡"/>
+  <br/>
+  <sub>微信赞赏码 · 纯打赏，<b>不用于购买服务</b></sub>
+</p>
 
-*微信 / 支付宝都可以。海外的朋友可以用 [Ko-fi](https://ko-fi.com/)（链接待补）。*
-
-> ☝️ 这里**只收打赏，不用于购买服务**——要买服务请看下一节。
+*海外的朋友可以用 [Ko-fi](https://ko-fi.com/)（链接待补）。*
 
 ---
 

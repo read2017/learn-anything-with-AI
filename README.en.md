@@ -24,7 +24,7 @@
 
 <br>
 
-[Preview](#preview) · [What it does](#what-it-does) · [Study directory workflow](#recommended-study-directory-workflow) · [Quick start](#quick-start) · [Tutorial](#detailed-tutorial) · [中文说明](./README.md)
+[Preview](#preview) · [What it does](#what-it-does) · [Quick start](#quick-start) · [Tutorial](#detailed-tutorial) · [**Work with me**](#work-with-me) · [Support this project](#support-this-project) · [中文说明](./README.md)
 
 <br>
 
@@ -53,7 +53,7 @@
 
 ## Quick Navigation
 
-[Overview](#overview) · [Recommended Workflow](#recommended-learning-directory-workflow) · [Quick Start](#quick-start) · [Detailed Tutorial](#detailed-tutorial) · [Repository Structure](#repository-structure) · [Suitable Topics](#suitable-topics) · [Customization](#customization) · [Compatibility Notes](#compatibility-notes)
+[Overview](#overview) · [Recommended Workflow](#recommended-learning-directory-workflow) · [Quick Start](#quick-start) · [Detailed Tutorial](#detailed-tutorial) · [Repository Structure](#repository-structure) · [Suitable Topics](#suitable-topics) · [Customization](#customization) · [Customization](#customization) · [Compatibility Notes](#compatibility-notes) · [**Work with me**](#work-with-me)
 
 <a id="overview"></a>
 ## Overview
@@ -243,21 +243,17 @@ If this skill helped you actually learn something:
 
 Questions, feature requests, or a new project pattern to nominate? Open an [Issue](https://github.com/read2017/learn-anything-with-AI/issues).
 
-### ☕ Buy me a coffee
+### Buy me a coffee
 
 This project took a good number of evenings. If it's been useful, you can buy me a coffee:
 
-<!-- Donate QR: save your WeChat/Alipay QR code as assets/donate-qrcode.png, then uncomment this block
-<table>
-  <tr>
-    <td align="center"><img src="assets/donate-qrcode.png" width="240" alt="Buy me a coffee"/></td>
-  </tr>
-</table>
--->
+<p align="center">
+  <img src="assets/donate-qrcode.png" width="240" alt="Buy me a coffee"/>
+  <br/>
+  <sub>WeChat 赞赏码 (China) · tips only, <b>not for purchasing services</b></sub>
+</p>
 
-*WeChat / Alipay for readers in China, [Ko-fi](https://ko-fi.com/) for international readers (link TBD).*
-
-> ☝️ Tips only — **not for purchasing services**. For services, see the next section.
+*International readers: [Ko-fi](https://ko-fi.com/) (link TBD).*
 
 ---
 
